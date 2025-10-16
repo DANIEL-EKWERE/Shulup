@@ -1,0 +1,100 @@
+name: schulup
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  nfc_manager: ^4.0.2
+  nfc_manager_ndef: ^1.0.1
+  scanning_effect: ^1.0.11
+  flutter_svg: ^2.2.1
+  # nfc_manager_felica: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  cached_network_image: ^3.4.1
+  get: ^4.6.6
+  shared_preferences: ^2.3.4
+  connectivity_plus: ^6.1.1
+  responsive_grid_list: ^1.4.0
+  overlay_kit: ^1.1.2
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  # usb_serial: ^0.5.2
+  # permission_handler: ^12.0.1
+  launcher_name: ^1.0.2
+  flutter_launcher_icons: ^0.14.4
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter Tight
+      fonts: 
+        - asset: assets/fonts/InterTight-SemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/Inter_24pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter_24pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_24pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_24pt-Bold.ttf
+          weight: 700
+
+launcher_name:
+  default: "Schulup"
+
+
+
+
+flutter_launcher_icons:
+  image_path: "assets/images/1024.png"
+  android:
+    generate: true
+    image_path: "assets/images/1024.png"
+    background_color: "#004694"
+    theme_color: "#004694"
+  linux:
+    generate: true
+    image_path: "assets/images/1024.png"
+    background_color: "#004694"
+    theme_color: "#004694"
+  ios:
+    generate: true
+    image_path: "assets/images/1024.png"
+    background_color: "#004694"
+    theme_color: "#004694"
+    remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/images/1024.png"
+    background_color: "#004694"
+    theme_color: "#004694"
+  windows:
+    generate: true
+    image_path: "assets/images/1024.png"
+    background_color: "#004694"
+    theme_color: "#004694"
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: "assets/images/1024.png"
+    background_color: "#004694"
+    theme_color: "#004694"
